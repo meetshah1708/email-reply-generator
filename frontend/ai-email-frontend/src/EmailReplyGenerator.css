@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.modern-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.modern-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.modern-header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.modern-form {
+  padding: 20px;
+}
+
+.modern-textarea, .modern-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.modern-btn {
+  background: #2575fc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.modern-btn:hover {
+  background: #1a5fcc;
+}
+
+.modern-reply {
+  background: #e3f2fd;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+  color: #333;
+}
+
+.tone-selector {
+  margin-bottom: 10px;
+}
+
+.tone-selector label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #555;
+}
+
+.modern-error {
+  background: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  margin: 15px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.reply-content {
+  white-space: pre-wrap;
+}
+
+.copy-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.copy-btn:hover {
+  background: #388e3c;
+}
+
+.modern-btn:disabled {
+  background: #b0b0b0;
+  cursor: not-allowed;
+}
+
+.connection-status {
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.connection-status.connected {
+  background: #4caf50;
+  color: white;
+}
+
+.connection-status.disconnected {
+  background: #f44336;
+  color: white;
+}
+
+.connection-status.unknown {
+  background: #ff9800;
+  color: white;
+}
+
+.retry-btn {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.retry-btn:hover {
+  background: #e68900;
+}
